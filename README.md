@@ -34,7 +34,7 @@ MatkaCash is a revolutionary gaming token on the Solana blockchain that combines
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/matka_cash.git
+git clone https://github.com/mtupper/matka_cash.git
 cd matka_cash
 ```
 
