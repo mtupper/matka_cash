@@ -1,0 +1,23 @@
+[toolchain]
+package_manager = "Yarn"
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+matka_cash = "BZqt9Fj99H91QYo5thySX3XSPYAwgA3RdQLZSV8x3V3D"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+
+[workspace]
+types = "target/types"
+members = ["programs/*"]
